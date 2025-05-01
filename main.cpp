@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	size_t m = 10;
 	
-	//Vettore ordinato di int compresi tra -3 e m-3
+	//Vettore ordinato di int: numeri consecutivi a partire da -3 
 	vector<int> v1(m);
 	iota(v1.begin(), v1.end(), -3);
 	
